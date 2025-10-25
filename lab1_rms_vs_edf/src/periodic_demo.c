@@ -191,7 +191,7 @@ static void *task_entry(void *arg) {
         CPU_ZERO(&set);
         CPU_SET(g_opts.cpu_affinity, &set);
         if (pthread_setaffinity_np(pthread_self(), sizeof(set), &set) != 0) {
-            perror(\"pthread_setaffinity_np\");
+            perror("pthread_setaffinity_np");
         }
     }
 
