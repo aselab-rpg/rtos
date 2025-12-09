@@ -1,6 +1,6 @@
 # Real-Time Communication Labs
 
-Ba bài lab thực hành về độ trễ, jitter, ưu tiên và deadline trên mạng/bus thời gian thực. Mỗi nhóm 2 SV, nộp một báo cáo chung gồm 3 phần.
+Ba bài lab thực hành về độ trễ, jitter, ưu tiên và deadline trên mạng/bus thời gian thực. 
 
 ## Cấu trúc repo
 - `labA/ping_analyzer.py`: script rút trích latency & jitter từ log `ping`.
